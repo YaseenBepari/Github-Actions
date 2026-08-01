@@ -5,4 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello Step
-        run: echo "Yaseen Github"
+        run: | 
+          echo "yAWWN"  
+          echo "asda"
