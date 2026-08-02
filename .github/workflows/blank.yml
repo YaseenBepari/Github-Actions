@@ -6,6 +6,6 @@ jobs:
    steps:
      - name: Build step
        # run: echo "a demo build"
-       run: echo "Hey,${{vars.my_name}}"
+       run: echo "Hey,${{secrets.DOCKER_PASS}}"
       
 
